@@ -1,0 +1,8 @@
+.skills-container {
+    min-height: 100vh;
+    padding: 2rem 5rem 1rem 5rem;
+    gap: 2rem;
+
+    line-height: 2.6rem;
+}
+

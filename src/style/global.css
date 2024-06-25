@@ -26,3 +26,14 @@
 h1, h2, h3, a, p {
     color: var(--color-dark);
 }
+
+.sub-title {
+    margin: 2rem 0;
+    font-size: 3.6rem;
+    font-weight: 800;
+
+    padding: 1rem 0;
+    width: auto;
+
+    border-bottom: .3rem solid var(--color-cyan);
+}

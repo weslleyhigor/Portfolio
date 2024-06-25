@@ -1,0 +1,22 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    min-height: 100vh;
+    padding: 2rem 5rem 1rem 5rem;
+
+    gap: 2rem;
+
+    line-height: 2.6rem;
+}
+
+.about-container > p {
+    color: var(--color-dark);
+}
+
+span {
+    font-weight: 700;
+    color: var(--color-cyan);
+}   

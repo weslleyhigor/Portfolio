@@ -121,6 +121,7 @@ header p img {
     justify-content: center;
     align-items: center;
 
+    color: var(--color-dark);
     font-size: 1.6rem;
     font-weight: 500;
 
@@ -144,5 +145,4 @@ header p img {
     display: flex;
     justify-content: center;
     gap: 2rem;
-
 }
