@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/global.css">
     <link rel="stylesheet" href="./src/style/home.css">
+    <link rel="stylesheet" href="./src/style/header.css">
     <link rel="stylesheet" href="./src/style/about.css">
     <link rel="stylesheet" href="./src/style/skills.css">
 
     <title>Portfólio - Weslley Higor</title>
 </head>
 <body>
-    <section class="home-container">
+    <section class="menu-container">
+        <header class="menu display-none">
+            <img class="menu-burguer-close" src="./src/img/menu-close.svg" alt="">
+            <nav>
+                <a id="home-button" href="#home">Home</a>
+                <a id="about-button" href="#about">Sobre</a>
+                <a id="skills-button" href="#skills">Habilidades</a>
+                <a id="experiences-button" href="#experiences">Experiências</a>
+                <a id="projects-button" href="#projects">Projetos</a>
+                <a id="contacts-button" href="#contacts">Contatos</a>
+            </nav>
+
+            <p><img src="./src/img/phone-icon.svg" alt="Ícone de um telefone celular indicando o número para contato">(68) 99610-2021</p>
+        </header>
+    </section>
+
+    <section id="home" class="home-container display-flex">
         <div class="home-bg-opacity">
             <div class="home-content-container">
-                <header>
-                    <nav>
-                        <a href="">Home</a>
-                        <a href="">Sobre</a>
-                        <a href="">Habilidades</a>
-                        <a href="">Experiências</a>
-                        <a href="">Projetos</a>
-                        <a href="">Contatos</a>
-                    </nav>
-        
-                    <p><img src="./src/img/phone-icon.svg" alt="Ícone de um telefone celular indicando o número para contato">(68) 99610-2021</p>
-                </header>
+                <img class="menu-burguer-open" src="./src/img/menu-burguer.svg" alt="">
+                
+            
         
                 <div class="name-container">
                     <div>
@@ -47,14 +55,14 @@
         </div>
     </section>
 
-    <section class="about-container">
-        <h2 class="sub-title">SOBRE</h2>
+    <section id="about" class="about-container display-flex">
+        <h2 class="section-title">SOBRE</h2>
 
         <p>Olá! Meu nome é <span>Weslley Higor</span> e sou apaixonado por tecnologia desde que me entendo por gente. Sempre fui fascinado pelo mundo da programação e, desde que comecei a estudar, tenho me dedicado a aprender cada vez mais sobre essa área.</p>
 
         <p>Sou uma pessoa <span>curiosa e criativa</span>, sempre em busca de novos desafios e oportunidades para desenvolver minhas habilidades e conhecimentos. Gosto de trabalhar em equipe, compartilhar ideias e aprender com os outros, pois acredito que essa troca de experiências é essencial para o meu crescimento profissional.</p>
         
-        <p>Atualmente, estou em busca de uma oportunidade para colocar em prática tudo o que aprendi até aqui e contribuir para o desenvolvimento de soluções tecnológicas inovadoras. Tenho conhecimentos em diversas linguagens de programação e ferramentas, além de estar sempre em busca de aprender novos e metodos e tecnologias.
+        <p>Atualmente, estou em busca de uma oportunidade para colocar em prática tudo o que aprendi até aqui e contribuir para o desenvolvimento de soluções tecnológicas inovadoras. Tenho conhecimentos em diversas linguagens de programação e ferramentas, além de estar sempre em busca de aprender novos metodos e tecnologias.
         </p>
         
         <p>Se você está em busca de alguém que seja apaixonado por tecnologia, que ame programação e esteja sempre em busca de novos desafios, então <span>eu sou a pessoa certa para a sua Empresa!</span> </p>
@@ -62,11 +70,38 @@
         <p>Vamos conversar mais sobre como eu posso contribuir para o sucesso do seu projeto?</p>
     </section>
 
-    <section class="skills-container">
-        <h2 class="sub-title">HABILIDADES</h2>
+    <section id="skills" class="skills-container display-flex">
+        <h2 class="section-title">HABILIDADES</h2>
+
+        <div>
+            <h3 class="sub-title">FRONT-END</h3>
+
+            <ul class="cards-container">
+
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="sub-title">BACK-END</h3>
+
+            <ul class="cards-container">
+
+            </ul>
+        </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
+
+    <section id="experiences" class="experiences-container display-flex">
+        <h2 class="section-title">EXPERIÊNCIAS</h2>
+    </section>
+    
+    <section id="projects" class="projects-container display-flex">
+        <h2 class="section-title">PROJETOS</h2>
+    </section>
+    
+    <section id="contacts" class="contact-container display-flex">
+        <h2 class="section-title">CONTATOS</h2>
+    </section>
+
+    <script type="module" src="./src/sripts/app.js"></script>
 </body>
 </html>

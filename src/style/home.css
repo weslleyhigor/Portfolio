@@ -16,80 +16,21 @@
 
 .home-content-container {
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
     height: 100vh;
-    max-width: 800px;
+    max-width: 80rem;
     margin: 0 auto;
-}
-
-header {
-    position: absolute;
-
-
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-    height: 100vh;
-    gap: 1.6rem;
-    padding: 6rem 0;
-
-    background-color: var(--color-light);
-}
-
-header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    gap: 3rem;
-    padding: 0 3rem;
-
-    font-weight: 500;
-}
-
-header > nav > a {
-    text-align: center;
-    
-    border: 1px solid;
-    padding: 1rem 2rem;
-
-    border-radius: .7rem;
-
-    width: 100%;
-
-}
-
-header > nav > a, header > p {
-    font-size: 2rem;
-}
-
-header p {
-    display: flex;
-    align-items: center;
-
-    gap: .5rem;
-}
-
-header p img {
-    width: 1.6rem;
 }
 
 .name-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    box-sizing: border-box;
     
     padding: 12rem 5rem 5rem 5rem;
 }
@@ -97,7 +38,7 @@ header p img {
 .name-container > div {
     display: flex;
     flex-direction: column;
-    line-height: 4.2rem
+    line-height: 4.2rem;
 }
 
 .first-name {
@@ -106,14 +47,16 @@ header p img {
 }
 
 .last-name {
+    max-width: 100%;
     font-size: 7.5rem;
     font-weight: 700;
 }
 
 .career {
     margin-top: 1.4rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
+    line-height: 2.6rem;
 }
 
 .cv-button {
