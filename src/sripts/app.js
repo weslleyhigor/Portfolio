@@ -1,10 +1,11 @@
 import { openNavegation, closeNavegation, optionsNavegation } from "./menu.js";
+import { createCardSkills } from "./cards-skills.js";
+import { createCardExperiences } from "./cards-experiences.js";
 
-const buttonOpenNavegation = openNavegation;
-const buttonCloseNavegation = closeNavegation;
-const buttonOptionsNavegation = optionsNavegation;
+openNavegation();
+closeNavegation();
+optionsNavegation();
 
-buttonOpenNavegation();
-buttonCloseNavegation();
-buttonOptionsNavegation();
+createCardSkills();
+createCardExperiences();
 

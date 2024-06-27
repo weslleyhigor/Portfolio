@@ -1,0 +1,46 @@
+.cards-xp-academic, .cards-xp-professional {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.3rem;
+    padding-bottom: 3rem;
+}
+
+.xp-card {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    min-width: 100%;
+    
+    gap: 1.6rem;
+    padding: 1.6rem 2rem;
+
+    list-style: none;
+
+    border: .2rem solid var(--color-cyan);
+    border-radius: 2rem;
+}
+
+.xp-container-name {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    
+    width: 100%;
+}
+
+.xp-container-name img {
+    width: 6rem;
+}
+
+.xp-description-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.xp-description-container {
+    display: flex;
+    flex-direction: column;
+}

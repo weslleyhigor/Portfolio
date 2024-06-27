@@ -1,0 +1,23 @@
+.contact-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 5rem;
+}
+
+.social-media-contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-contact-container  > img {
+    width: 3rem;
+
+    border-right: .2rem solid vcar;
+}
+
+.profile-img {
+    width: 20rem;
+}
