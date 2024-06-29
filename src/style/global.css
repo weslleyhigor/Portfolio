@@ -55,7 +55,7 @@ h1, h2, h3, a, p {
 
     box-sizing: border-box;
 
-    min-height: 100vh;
+    min-height: 100%;
     max-width: 80rem;
     
     padding: 2rem 5rem 1rem 5rem;
@@ -85,4 +85,11 @@ h1, h2, h3, a, p {
     width: auto;
 
     border-left: .3rem solid var(--color-cyan);
+}
+
+
+@media (min-width: 720px) {
+    .about-container, .skills-container, .experiences-container, .projects-container, .contact-container {
+        min-height: 100%;
+    }
 }

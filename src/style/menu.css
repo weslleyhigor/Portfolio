@@ -28,8 +28,10 @@ header nav {
     align-items: center;
 
     width: 100%;
+    max-width: 80rem;
+
     gap: 3rem;
-    padding: 0 3rem;
+    padding: 0 4rem;
 
     font-weight: 500;
 }
@@ -43,7 +45,6 @@ header > nav > a {
     border-radius: .7rem;
 
     width: 100%;
-
 }
 
 header > nav > a, header > p {

@@ -1,6 +1,10 @@
 .cards-xp-academic, .cards-xp-professional {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+
+    box-sizing: border-box;
+    flex-wrap: wrap;
 
     gap: 2.3rem;
     padding-bottom: 3rem;
@@ -11,23 +15,26 @@
     flex-direction: column;
 
     box-sizing: border-box;
-    min-width: 100%;
+    width: 100%;
+    max-width: 30rem;
+
+    flex-wrap: wrap;
     
     gap: 1.6rem;
     padding: 1.6rem 2rem;
 
     list-style: none;
 
-    border: .2rem solid var(--color-cyan);
-    border-radius: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: .1rem .8rem 2rem var(--color-opacity-bg-dark);
 }
 
 .xp-container-name {
     display: flex;
     align-items: center;
-
-    gap: 2rem;
     
+    gap: 1rem;
     width: 100%;
 }
 
@@ -43,4 +50,11 @@
 .xp-description-container {
     display: flex;
     flex-direction: column;
+}
+
+
+@media (min-width: 720px) {
+    .cards-xp-academic, .cards-xp-professional {
+        justify-content: flex-start;
+    }
 }
