@@ -106,14 +106,14 @@ export const skillsBackend = [
 ]
 
 export const xpAcademic = [
-    {
-        logoUrl: './src/img/experiences/descomplica-icon.svg',
-        nameCompany: 'FACULDADE DESCOMPLICA',
-        occupation: 'Engenharia de Software',
-        timeStart: 'Julho de 2024',
-        timeEnd: 'Julho de 2029',
-        status: 'Cursando', 
-    },
+    // {
+    //     logoUrl: './src/img/experiences/descomplica-icon.svg',
+    //     nameCompany: 'FACULDADE DESCOMPLICA',
+    //     occupation: 'Engenharia de Software',
+    //     timeStart: 'Julho de 2024',
+    //     timeEnd: 'Julho de 2029',
+    //     status: 'Cursando', 
+    // },
     
     {
         logoUrl: './src/img/experiences/kenzie-icon.jpg',
@@ -135,13 +135,13 @@ export const xpAcademic = [
 ]
 
 export const xpProfessional = [
-    {
-        logoUrl: './src/img/experiences/boticario-icon.jpeg',
-        nameCompany: 'O BOTICÁRIO',
-        occupation: 'Business Tech Analyst I <br> (E-commerce)',
-        timeStart: 'Julho de 2024',
-        timeEnd: 'Atualmente',
-    },
+    // {
+    //     logoUrl: './src/img/experiences/boticario-icon.jpeg',
+    //     nameCompany: 'O BOTICÁRIO',
+    //     occupation: 'Business Tech Analyst I <br> (E-commerce)',
+    //     timeStart: 'Julho de 2024',
+    //     timeEnd: 'Atualmente',
+    // },
 
     {
         logoUrl: './src/img/experiences/boticario-icon.jpeg',
