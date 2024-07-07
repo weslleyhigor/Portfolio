@@ -19,7 +19,7 @@
 
 .xp-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     box-sizing: border-box;
 
