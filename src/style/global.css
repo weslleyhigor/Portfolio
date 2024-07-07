@@ -31,7 +31,7 @@ h1, h2, h3, a, p {
     top: 3rem;
     right: 2.6rem;
 
-    width: 5rem;
+    width: 3rem;
 }
 
 .display-flex {
@@ -85,6 +85,15 @@ h1, h2, h3, a, p {
     width: auto;
 
     border-left: .3rem solid var(--color-cyan);
+}
+
+.card-scale {
+    animation: 4s;
+}
+
+.card-scale:hover {
+    transition: .1s;
+    transform: scale(1.012);
 }
 
 

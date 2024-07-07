@@ -44,7 +44,7 @@ export const skillsFrontend = [
 
     {
         logoUrl: './src/img/tecnologias/js-icon.svg',
-        name: 'JAVA<br>SCRIPT',
+        name: 'JAVASCRIPT',
         category: 'frontend', 
     }, 
 
@@ -56,7 +56,7 @@ export const skillsFrontend = [
 
     {
         logoUrl: './src/img/tecnologias/ts-icon.svg',
-        name: 'TYPE<br>SCRIPT',
+        name: 'TYPESCRIPT',
         category: 'frontend', 
     }, 
 
@@ -107,7 +107,16 @@ export const skillsBackend = [
 
 export const xpAcademic = [
     {
-        logoUrl: './src/img/experiences/kenzie-icon.svg',
+        logoUrl: './src/img/experiences/descomplica-icon.svg',
+        nameCompany: 'FACULDADE DESCOMPLICA',
+        occupation: 'Engenharia de Software',
+        timeStart: 'Julho de 2024',
+        timeEnd: 'Julho de 2029',
+        status: 'Cursando', 
+    },
+    
+    {
+        logoUrl: './src/img/experiences/kenzie-icon.jpg',
         nameCompany: 'KENZIE ACADEMY',
         occupation: 'Dev Web Full-Stack',
         timeStart: 'Novembro de 2022',
@@ -127,17 +136,25 @@ export const xpAcademic = [
 
 export const xpProfessional = [
     {
-        logoUrl: './src/img/experiences/boticario-icon.svg',
+        logoUrl: './src/img/experiences/boticario-icon.jpeg',
+        nameCompany: 'O BOTICÁRIO',
+        occupation: 'Business Tech Analyst I <br> (E-commerce)',
+        timeStart: 'Julho de 2024',
+        timeEnd: 'Atualmente',
+    },
+
+    {
+        logoUrl: './src/img/experiences/boticario-icon.jpeg',
         nameCompany: 'O BOTICÁRIO',
         occupation: 'Consultor de Experiência do Cliente - CEX',
         timeStart: 'Julho de 2022',
-        timeEnd: 'Atualmente',
+        timeEnd: 'Julho de 2024',
     },
     
     {
         logoUrl: './src/img/experiences/barriga-verde-icon.svg',
         nameCompany: 'LOJA BARRIGA VERDE',
-        occupation: 'Dev Front-End',
+        occupation: 'Desenvolvedor Front-End',
         timeStart: 'Agosto de 2021',
         timeEnd: 'Junho de 2022',
     },
@@ -164,5 +181,52 @@ export const xpProfessional = [
         occupation: 'Menor aprendiz ',
         timeStart: 'Fevereiro de 2013 ',
         timeEnd: 'Fevereiro de 2015',
+    },
+]
+
+export const projects = [
+    {
+        imgPreviewUrl: './src/img/projects/project-01.png',
+        nameProject: 'Landing Page',
+        description: 'Projeto de introdução ao HTML e CSS',
+        tecnologies: [skillsFrontend[0], skillsFrontend[1]],
+        urlGithub: 'https://github.com/weslleyhigor/portfolio-projeto01-Introducao-ao-HTML-CSS',
+        urlViewProject: 'https://weslleyhigor.github.io/portfolio-projeto01-Introducao-ao-HTML-CSS/',
+    },
+
+    {
+        imgPreviewUrl: './src/img/projects/project-02.png',
+        nameProject: 'Landing Page Treine.me',
+        description: 'Projeto com novos conceitos de HTML e CSS',
+        tecnologies: [skillsFrontend[0], skillsFrontend[1]],
+        urlGithub: 'https://github.com/weslleyhigor/portfolio-projeto02-Conhecendo-novos-conceitos-de-HTML-CSS',
+        urlViewProject: 'https://weslleyhigor.github.io/portfolio-projeto02-Conhecendo-novos-conceitos-de-HTML-CSS/',
+    },
+
+    {
+        imgPreviewUrl: './src/img/projects/project-03.png',
+        nameProject: 'Formulário estilizado',
+        description: 'Projeto de formulário com acessibilidade',
+        tecnologies: [skillsFrontend[0], skillsFrontend[1]],
+        urlGithub: 'https://github.com/weslleyhigor/portfolio-projeto03-Formularios-Validacoes-e-Customizacoes',
+        urlViewProject: 'https://weslleyhigor.github.io/portfolio-projeto03-Formularios-Validacoes-e-Customizacoes/',
+    },
+
+    {
+        imgPreviewUrl: './src/img/projects/project-04.png',
+        nameProject: 'Responsive Page',
+        description: 'Página com aplicação prática de responsividade',
+        tecnologies: [skillsFrontend[0], skillsFrontend[1]],
+        urlGithub: 'https://github.com/weslleyhigor/portfolio-projeto04-Responsividade',
+        urlViewProject: 'https://weslleyhigor.github.io/portfolio-projeto04-Responsividade/',
+    },
+
+    {
+        imgPreviewUrl: './src/img/projects/project-05.png',
+        nameProject: 'Relógio em tempo real',
+        description: 'Relógio feito em javascript utilizando função Date',
+        tecnologies: [skillsFrontend[0], skillsFrontend[1], skillsFrontend[2]],
+        urlGithub: 'https://github.com/weslleyhigor/relogio-em-tempo-real',
+        urlViewProject: 'https://weslleyhigor.github.io/relogio-em-tempo-real/',
     },
 ]

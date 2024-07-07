@@ -1,0 +1,94 @@
+.cards-projects-container {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.cards-projects-container > div {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+
+    overflow-x: scroll;
+    padding: 2rem 1rem;
+
+    max-width: 100%;
+    gap: 2.4rem;
+}
+
+.projects-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    width: 100%;
+    max-width: 30rem;
+    min-width: 26rem;
+
+    flex-wrap: wrap;
+    
+    gap: 1.6rem;
+    padding: 1.6rem 2rem;
+
+    list-style: none;
+
+    border-radius: 1rem;
+
+    box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
+}
+
+.projects-card > img {
+    height: 14rem;
+    width: 100%;
+    border-radius: .2rem;
+}
+
+.projects-card > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.6rem;
+}
+
+.name-project {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.description-project {
+    font-style: italic;
+}
+
+.tecnologies-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.tecnologies-project img {
+    width: 2rem;
+}
+
+.github-project {
+    font-weight: 500;
+    text-decoration: underline;
+
+    width: max-content;
+}
+
+.link-project {
+    width: max-content;
+}
+
+@media (min-width: 810px) {
+    .cards-projects-container > div {
+        justify-content: start;
+    }
+}
