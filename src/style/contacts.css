@@ -1,7 +1,7 @@
 .social-media-contact-container {
     display: flex;
     flex-direction: column;
-
+    
     justify-content: center;
     align-items: center;
     
@@ -12,10 +12,13 @@
 
 .social-media-card-container > div {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
 
-    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 
+    gap: 1rem;
     width: 100%;
 }
 
@@ -23,11 +26,8 @@
     display: flex;
     justify-content: center;
 
-    min-height: 8rem;
-    width: 100%;
-    gap: 1rem;
-    padding: 2rem .6rem;
-
+    height: 10rem;
+    width: 8rem;
 
     border-radius: 1rem;
     box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
@@ -35,17 +35,22 @@
 
 .social-media-card li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
-    padding: 2rem;
+    padding: 2rem 0;
     font-weight: 500;
-    
-    width: 18rem;
+
 }
 
 .social-media-card  img {
     width: 3rem;
+}
+
+
+.social-media-card p {
+    font-size: 1.2rem;
 }
 
 .container-data-social-media {
@@ -68,5 +73,15 @@
 @media (min-width: 720px) {
     .social-media-card-container > div{
         flex-direction: row;
+        gap: 3rem;
+    }
+
+    .social-media-card {
+        height: auto;
+        width: 18rem;
+    }
+    
+    .social-media-card p {
+        font-size: 1.6rem;
     }
 }
