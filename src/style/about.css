@@ -1,5 +1,8 @@
 .about-container > p {
     color: var(--color-dark);
+    
+    text-align: justify;
+    text-indent: 2rem;
 }
 
 span {
