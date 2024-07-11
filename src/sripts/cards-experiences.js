@@ -15,7 +15,7 @@ export function createCardExperiences () {
                 <div class="xp-description-container">
                     <p>${element.occupation}</p>
                     <p><span>Inicio:</span> ${element.timeStart}</p>
-                    <p><span>Término:</span> ${element.timeEnd}</p>
+                    <p><span>Fim:</span> ${element.timeEnd}</p>
                     <p><span>Status:</span> ${element.status}</p>
                 </div>
             </li>    
@@ -33,7 +33,7 @@ export function createCardExperiences () {
                 <div class="xp-description-container">
                     <p>${element.occupation}</p>
                     <p><span>Inicio:</span> ${element.timeStart}</p>
-                    <p><span>Término:</span> ${element.timeEnd}</p>
+                    <p><span>Fim:</span> ${element.timeEnd}</p>
                 </div>
             </li>    
         `)

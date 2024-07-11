@@ -19,8 +19,10 @@ export function createCardProject () {
                         ${tecnologiesHTML}
                     </div>
                     
-                    <a class="github-project" href="${element.urlGithub}" target="_blank">Link Github</a>
-                    <a class="link-project" href="${element.urlViewProject}" target="_blank"><span>Ver Projeto
+                    <div class="links-container">
+                        <a class="github-project" href="${element.urlGithub}" target="_blank">Link Github</a>
+                        <a class="link-project" href="${element.urlViewProject}" target="_blank"><span>Ver Projeto
+                    </div>
                     </span></a>
                 </div>
             </li>

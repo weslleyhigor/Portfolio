@@ -4,8 +4,6 @@
     
     justify-content: center;
     align-items: center;
-    
-    gap: 2rem;
 
     margin-bottom: 5rem;
 }
@@ -13,24 +11,26 @@
 .social-media-card-container > div {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
 
-    gap: 1rem;
+    gap: 2rem;
     width: 100%;
 }
 
 .social-media-card {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     height: 10rem;
     width: 8rem;
 
     border-radius: 1rem;
-    box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
+    box-shadow: .1rem .4rem 1rem var(--box-shadow-color);
 }
 
 .social-media-card li {
@@ -44,7 +44,7 @@
 
 }
 
-.social-media-card  img {
+.social-media-card  svg {
     width: 3rem;
 }
 

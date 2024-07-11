@@ -11,11 +11,14 @@
 
     flex-wrap: nowrap;
 
-    overflow-x: scroll;
     padding: 2rem 1rem;
-
+    
     max-width: 100%;
     gap: 2.4rem;
+    
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .projects-card {
@@ -38,7 +41,7 @@
 
     border-radius: 1rem;
 
-    box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
+    box-shadow: .1rem .4rem 1rem var(--box-shadow-color);
 }
 
 .projects-card > img {

@@ -20,37 +20,46 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
-    word-break: break-all;
+    width: 8rem;
 
-    min-height: 10rem;
-    width: 10rem;
     gap: 1rem;
-    padding: 2rem .6rem;
+    padding: 1rem .6rem;
 
     border-radius: 1rem;
-    box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
+    box-shadow: .1rem .4rem 1rem var(--box-shadow-color);
+
 }
 
 .skill-card > img {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .skill-card > p {
-    height: 2.5rem;
+    flex-wrap: wrap;
+
     width: 100%;
     
+    line-height: 1.6rem;
     font-weight: 600;
     font-size: 1.2rem;
-    line-height: 1.9rem;
 
     text-align: center;
 }
 
 @media (min-width: 662px) {
     .cards-frontend-container div, .cards-backend-container div {
-        justify-content: start;
+        justify-content: center;
+    }
+
+    .skill-card {
+        min-height: 10rem;
+        width: 10rem;
+
+        border-radius: 1rem;
+        box-shadow: .1rem .4rem 1rem var(--box-shadow-color);
     }
 }

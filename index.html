@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./src/style/global.css">
     <link rel="stylesheet" href="./src/style/home.css">
-    <link rel="stylesheet" href="./src/style/menu.css">
+    <link rel="stylesheet" href="./src/style/menu-button.css">
+    <link rel="stylesheet" href="./src/style/dark-light-button.css">
+    <link rel="stylesheet" href="./src/style/navegation.css">
     <link rel="stylesheet" href="./src/style/about.css">
     <link rel="stylesheet" href="./src/style/skills.css">
     <link rel="stylesheet" href="src/style/experiences.css">
@@ -17,7 +20,7 @@
 <body>
     <section class="menu-container">
         <header class="menu display-none">
-            <img class="menu-burguer-close" src="./src/img/menu-close.svg" alt="">
+            <svg class="menu-burguer-close" width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#000000"></path></g></svg>
             <nav>
                 <a id="home-button" href="#home">Home</a>
                 <a id="about-button" href="#about">Sobre</a>
@@ -32,7 +35,10 @@
     <section id="home" class="home-container display-flex">
         <div class="home-bg-opacity">
             <div class="home-content-container">
-                <img class="menu-burguer-open" src="./src/img/menu-burguer.svg" alt="">
+                <svg class="dark-light-mode-button" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M343.494,87.494c-28.082,0-54.555,6.879-77.84,19.03l-2.729-0.262l-62.014-51.173l-62.014,51.171l-80.051,7.674 l-7.675,80.052L0,256l51.172,62.017l7.672,80.05l80.052,7.674l62.016,51.171l62.014-51.171l2.731-0.262 c23.284,12.149,49.755,19.028,77.837,19.028C436.558,424.506,512,349.063,512,256S436.558,87.494,343.494,87.494z M200.911,406.496l-37.265-30.751l-9.185-7.579l-11.855-1.137l-48.115-4.612l-4.612-48.112l-1.137-11.854l-7.579-9.186L50.414,256 l30.751-37.266l7.579-9.185l1.137-11.854l4.613-48.116l48.114-4.612l11.854-1.137l9.185-7.579l37.263-30.75l30.218,24.935 c-10.98,9.833-20.661,21.085-28.759,33.468c-0.486-0.009-0.971-0.023-1.458-0.023c-50.875,0-92.116,41.241-92.116,92.115 c0,50.873,41.241,92.115,92.116,92.115c0.487,0,0.971-0.018,1.456-0.026c8.099,12.385,17.78,23.638,28.763,33.472L200.911,406.496 z M182.516,305.949c-20.313-7.504-34.834-27.062-34.834-49.949s14.521-42.445,34.834-49.949 c-4.892,15.784-7.528,32.558-7.528,49.949S177.624,290.165,182.516,305.949z M343.494,385.62 c-71.473,0-129.62-58.146-129.62-129.62s58.148-129.62,129.62-129.62s129.62,58.146,129.62,129.62S414.966,385.62,343.494,385.62z "></path> </g> </g> <g> <g> <circle cx="367.564" cy="320.81" r="38.886"></circle> </g> </g> <g> <g> <circle cx="434.228" cy="243.038" r="25.52"></circle> </g> </g> <g> <g> <circle cx="259.24" cy="236.557" r="19.443"></circle> </g> </g> <g> <g> <circle cx="317.57" cy="178.228" r="25.924"></circle> </g> </g> </g>
+                </svg>
+
+                <svg class="menu-burguer-open" width="100px" height="100px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"></path> </g></svg>
 
                 <div class="name-container">
                     <div>
@@ -41,7 +47,13 @@
                         <p class="career">Desenvolvedor Front-End</p>
                     </div>
 
-                        <button class="cv-button card-scale"><a href="./src/documents/Curriculo_WeslleyHigor_frontend.pdf" download>Download CV <img src="./src/img/arrow-down.svg" alt="Ícone de uma seta para baixo indicando Download"></a></button>
+                        <button class="cv-button card-scale">
+                            <a href="./src/documents/Curriculo_WeslleyHigor_frontend.pdf" download>Download CV 
+                                <svg width="33" height="33" viewBox="0 0 33 33" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5 0C12.1239 0 7.92709 1.73839 4.83274 4.83274C1.73839 7.92709 0 12.1239 0 16.5C0 20.8761 1.73839 25.0729 4.83274 28.1673C7.92709 31.2616 12.1239 33 16.5 33C20.8761 33 25.0729 31.2616 28.1673 28.1673C31.2616 25.0729 33 20.8761 33 16.5C33 12.1239 31.2616 7.92709 28.1673 4.83274C25.0729 1.73839 20.8761 0 16.5 0ZM8.18555 18.1113C7.57969 17.5055 7.57969 16.5258 8.18555 15.9264C8.79141 15.327 9.77109 15.3205 10.3705 15.9264L14.9467 20.5025L14.9531 8.76562C14.9531 7.9084 15.6428 7.21875 16.5 7.21875C17.3572 7.21875 18.0469 7.9084 18.0469 8.76562V20.5025L22.623 15.9264C23.2289 15.3205 24.2086 15.3205 24.808 15.9264C25.4074 16.5322 25.4139 17.5119 24.808 18.1113L17.5957 25.3301C16.9898 25.9359 16.0102 25.9359 15.4107 25.3301L8.18555 18.1113Z" fill="none"/>
+                                    </svg>
+                                    
+                            </a></button>
 
                 </div>
         

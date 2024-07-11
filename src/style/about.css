@@ -1,6 +1,5 @@
 .about-container > p {
-    color: var(--color-dark);
-    
+    font-size: 1.6rem;
     text-align: justify;
     text-indent: 2rem;
 }

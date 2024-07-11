@@ -35,7 +35,7 @@
 
     border-radius: 1rem;
 
-    box-shadow: .1rem .4rem 1rem var(--color-opacity-bg-dark);
+    box-shadow: .1rem .4rem 1rem var(--box-shadow-color);
 }
 
 .xp-container-name {

@@ -3,12 +3,12 @@
 :root {
     --font-family: "Montserrat", sans-serif;
 
-    --color-light: #ffffff;
-    --color-dark: #393E46;
-    --color-cyan: #00ADB5;
+    --primary-color: #393E46;
+    --color-opacity-bg: rgba(222, 226, 230, 0.65);
+    --bg-color: #fff;
+    --box-shadow-color: rgba(57, 62, 70, 0.65);
 
-    --color-opacity-bg-light: rgba(255, 255, 255, 0.65);
-    --color-opacity-bg-dark: rgba(57, 62, 70, 0.65);
+    --color-cyan: #00ADB5;
 
     font-size: 62.5%;
 }
@@ -23,15 +23,26 @@
     text-decoration: none;
 }
 
-h1, h2, h3, a, p {
-    color: var(--color-dark);
+body {
+    background-color: var(--bg-color);
 }
 
-.menu-burguer-open, .menu-burguer-close{
-    top: 3rem;
-    right: 2.6rem;
+body::-webkit-scrollbar {
+    display: none;
+}
 
-    width: 3rem;
+h1, h2, h3, a, p {
+    color: var(--primary-color);
+}
+
+svg {
+    fill: var(--primary-color);
+    width: auto;
+    height: auto;
+}
+
+svg path {
+    fill: var(--primary-color);
 }
 
 .display-flex {
@@ -42,23 +53,15 @@ h1, h2, h3, a, p {
     display: none;
 }
 
-.menu-burguer-open {
-    position: fixed;
-}
-
-.menu-burguer-close {
-    position: absolute;
-}
-
 .about-container, .skills-container, .experiences-container, .projects-container, .contact-container  {
     flex-direction: column;
 
     box-sizing: border-box;
 
     min-height: 100%;
-    max-width: 80rem;
+    max-width: 120rem;
     
-    padding: 2rem 5rem 1rem 5rem;
+    padding: 2rem 2rem 1rem 2rem;
     gap: 2rem;
     margin: 0 auto;
 
@@ -99,6 +102,6 @@ h1, h2, h3, a, p {
 
 @media (min-width: 720px) {
     .about-container, .skills-container, .experiences-container, .projects-container, .contact-container {
-        min-height: 100%;
+        padding: 2rem 5rem 1rem 5rem;
     }
 }

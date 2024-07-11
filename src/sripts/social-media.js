@@ -5,9 +5,11 @@ const socialMediaContactContainer = document.querySelector('.social-media-card-c
 
 export function createSocialMedia () {
     socialMedias.forEach((element) => {
+        console.log(element.nameSocialMedia)
+
         socialMediaContainer.insertAdjacentHTML("beforeend", `
             <a class="card-scale" href="${element.link}" target="_blank">
-                <img src="${element.logoUrl}">
+                ${element.logoSvg}
             </a>
         `)
     })
@@ -18,7 +20,7 @@ export function createSocialMedia () {
                 <a class="social-media-card card-scale" href="${element.link}" target="_blank">
                     <li>
                         <div>
-                            <img src="${element.logoUrl}">
+                            ${element.logoSvg}
                         </div>
                         
                         <div class="container-data-social-media">
